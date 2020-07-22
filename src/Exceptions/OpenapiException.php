@@ -2,7 +2,7 @@
 //class Ks3ClieException extends RuntimeException{
 //
 //}
-namespace OpenSdk\Exceptions;
+namespace PHzc\WpsOpensdk\Exceptions;
 
 class OpenapiException extends \RuntimeException {
 

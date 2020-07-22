@@ -5,7 +5,7 @@
  * Date: 2019/7/10
  * Time: 9:59
  */
-namespace OpenSdk\OpenApi;
+namespace PHzc\WpsOpensdk\OpenApi;
 
 if(!defined("OPEN_API_PATH"))
     define("OPEN_API_PATH", dirname(dirname(__FILE__)));
@@ -13,8 +13,8 @@ if (!defined("OPEN_BASE_URI"))
     define("BASE_URI", "");
 
 require_once OPEN_API_PATH.DIRECTORY_SEPARATOR."vendor".DIRECTORY_SEPARATOR."autoload.php";
-use OpenSdk\Exceptions\OpenapiException;
-use OpenSdk\Http\HttpClient;
+use PHzc\WpsOpensdk\Exceptions\OpenapiException;
+use PHzc\WpsOpensdk\Http\HttpClient;
 
 if (function_exists("version_compare")){
     if(version_compare(PHP_VERSION, "5.5", "lt")){

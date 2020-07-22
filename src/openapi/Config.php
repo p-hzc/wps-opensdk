@@ -1,5 +1,5 @@
 <?php
-namespace OpenSdk\OpenApi;
+namespace PHzc\WpsOpensdk\OpenApi;
 
 class Config
 {

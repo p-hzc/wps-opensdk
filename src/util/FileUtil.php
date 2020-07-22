@@ -1,7 +1,7 @@
 <?php
 
 
-namespace OpenSdk\Util;
+namespace PHzc\WpsOpensdk\Util;
 
 
 class FileUtil

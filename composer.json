@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "OpenSdk\\" : "src/"
+            "PHzc\\WpsOpensdk\\" : "src/"
         }
     }
 }
