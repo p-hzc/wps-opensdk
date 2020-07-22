@@ -1,20 +1,8 @@
 <?php
-
-
 namespace PHzc\WpsOpensdk\OpenApi;
 
-if(!defined("OPEN_API_PATH"))
-    define("OPEN_API_PATH", dirname(dirname(__FILE__)));
-
-require_once OPEN_API_PATH.DIRECTORY_SEPARATOR."vendor".DIRECTORY_SEPARATOR."autoload.php";
 use PHzc\WpsOpensdk\Exceptions\OpenapiException;
 use PHzc\WpsOpensdk\Http\HttpClient;
-
-if (function_exists("version_compare")){
-    if(version_compare(PHP_VERSION, "5.5", "lt")){
-        throw new OpenapiException("php version must greater than 5.5.");
-    }
-}
 
 if(function_exists('get_loaded_extensions')){
     //检测curl扩展

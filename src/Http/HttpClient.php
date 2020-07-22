@@ -1,19 +1,9 @@
 <?php
-/**
- * Created by IntelliJ IDEA.
- * User: kingsoft
- * Date: 2019/7/10
- * Time: 11:29
- */
-
-
 namespace PHzc\WpsOpensdk\Http;
-require_once OPEN_API_PATH.DIRECTORY_SEPARATOR."vendor".DIRECTORY_SEPARATOR."autoload.php";
+
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ConnectException;
 use PHzc\WpsOpensdk\Exceptions\OpenapiException;
-
-
 
 class HttpClient
 {
